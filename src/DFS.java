@@ -35,6 +35,7 @@ public class DFS {
 
                 //Just for testing purposes
                 if(tempDiff < bestMin){
+                    //System.out.println("node id : " + node.getNodeId());
                     node.setDiff(tempDiff);
                     solutionStack.push(node);
                     bestMin = tempDiff;
@@ -59,6 +60,7 @@ public class DFS {
         }
 
         while(solutionStack.peek().getDiff()==bestMin){
+
 
             arraySolutions.add(solutionStack.pop().getState());
 

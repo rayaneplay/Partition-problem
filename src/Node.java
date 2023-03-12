@@ -2,17 +2,19 @@ import java.lang.reflect.Array;
 import java.util.*;
 
 public class Node {
-
+    int nodeId =0;
     int[] state;//This the content of our node at any given time
     Node parent;
-
+    static int  id = 0;
     int diff;
     int level;
 
     public void setDiff(int diff) {
         this.diff = diff;
     }
-
+public int getNodeId(){
+        return this.nodeId;
+    }
     public int getDiff() {
         return diff;
     }
@@ -29,26 +31,29 @@ public class Node {
         this.state = state;
         this.parent = parent;
         this.level = level;
+        id++;
+        this.nodeId= id;
     }
 
     public Node(Node parent, int level) {
         this.parent = parent;
         this.level = level;
         this.state = new int[parent.getState().length + 1];
+        id++; this.nodeId= id;
     }
 
     public Node() {
-
+        id++;this.nodeId= id;
     }
 
     public Node(int level) {
-        this.level = level;
+        this.level = level;id++; this.nodeId= id;
     }
 
     public Node(int[] state) {
         this.state = state;
-
-        this.level = 0;
+        id++;
+        this.level = 0; this.nodeId= id;
     }
 
     public void printNode(Node node) {
