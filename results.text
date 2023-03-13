@@ -1,0 +1,1082 @@
+Array number 1 :
+31 10 20 19 4 3 6
+Solution number : 0
+31 10 6 0 0 0 0
+20 19 4 3 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 1
+20 19 4 3 0 0 0
+31 10 6 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 2
+20 19 4 3 0 0 0
+31 10 6 0 0 0 0
+The difference between the 2 subsets is : 1
+The size of the search space before finding the first optimal solution is : 0
+
+
+Array number 2 :
+25 35 45 5 25 3 2 2
+Solution number : 0
+25 35 5 3 2 2 0 0
+45 25 0 0 0 0 0 0
+The difference between the 2 subsets is : 2
+Solution number : 1
+25 35 5 3 2 0 0 0
+45 25 2 0 0 0 0 0
+The difference between the 2 subsets is : 2
+Solution number : 2
+25 35 5 3 2 0 0 0
+45 25 2 0 0 0 0 0
+The difference between the 2 subsets is : 2
+Solution number : 3
+25 45 2 0 0 0 0 0
+35 5 25 3 2 0 0 0
+The difference between the 2 subsets is : 2
+Solution number : 4
+25 45 2 0 0 0 0 0
+35 5 25 3 2 0 0 0
+The difference between the 2 subsets is : 2
+Solution number : 5
+25 45 0 0 0 0 0 0
+35 5 25 3 2 2 0 0
+The difference between the 2 subsets is : 2
+Solution number : 6
+35 5 25 3 2 2 0 0
+25 45 0 0 0 0 0 0
+The difference between the 2 subsets is : 2
+Solution number : 7
+35 5 25 3 2 0 0 0
+25 45 2 0 0 0 0 0
+The difference between the 2 subsets is : 2
+Solution number : 8
+35 5 25 3 2 0 0 0
+25 45 2 0 0 0 0 0
+The difference between the 2 subsets is : 2
+Solution number : 9
+45 25 2 0 0 0 0 0
+25 35 5 3 2 0 0 0
+The difference between the 2 subsets is : 2
+Solution number : 10
+45 25 2 0 0 0 0 0
+25 35 5 3 2 0 0 0
+The difference between the 2 subsets is : 2
+Solution number : 11
+45 25 0 0 0 0 0 0
+25 35 5 3 2 2 0 0
+The difference between the 2 subsets is : 2
+Solution number : 12
+45 25 0 0 0 0 0 0
+25 35 5 3 2 2 0 0
+The difference between the 2 subsets is : 2
+The size of the search space before finding the first optimal solution is : 0
+
+
+
+Array number 3 :
+Solution number : 0
+3 4 3 1 0 0 0 0 0
+3 2 3 2 1 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 1
+3 4 3 1 0 0 0 0 0
+1 3 2 3 2 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 2
+3 4 1 3 0 0 0 0 0
+3 2 3 2 1 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 3
+3 4 1 2 1 0 0 0 0
+3 3 3 2 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 4
+3 4 1 3 0 0 0 0 0
+3 3 2 2 1 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 5
+3 4 1 2 1 0 0 0 0
+3 3 2 3 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 6
+3 4 3 1 0 0 0 0 0
+3 1 2 3 2 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 7
+3 4 2 2 0 0 0 0 0
+3 1 3 3 1 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 8
+3 4 3 1 0 0 0 0 0
+3 1 3 2 2 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 9
+3 3 1 3 1 0 0 0 0
+4 2 3 2 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 10
+3 3 1 2 2 0 0 0 0
+4 3 3 1 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 11
+3 3 1 3 1 0 0 0 0
+4 3 2 2 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 12
+3 3 3 2 0 0 0 0 0
+4 1 3 2 1 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 13
+3 3 3 2 0 0 0 0 0
+4 1 2 3 1 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 14
+3 3 2 3 0 0 0 0 0
+4 1 3 2 1 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 15
+3 3 2 2 1 0 0 0 0
+4 1 3 3 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 16
+3 3 3 2 0 0 0 0 0
+4 1 3 2 1 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 17
+3 1 3 2 2 0 0 0 0
+4 3 3 1 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 18
+3 1 3 3 1 0 0 0 0
+4 3 2 2 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 19
+3 1 2 3 2 0 0 0 0
+4 3 3 1 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 20
+3 3 2 3 0 0 0 0 0
+4 3 1 2 1 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 21
+3 3 2 2 1 0 0 0 0
+4 3 1 3 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 22
+3 3 3 2 0 0 0 0 0
+4 3 1 2 1 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 23
+3 2 3 2 1 0 0 0 0
+4 3 1 3 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 24
+4 3 1 3 0 0 0 0 0
+3 2 3 2 1 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 25
+4 3 1 2 1 0 0 0 0
+3 3 3 2 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 26
+4 3 1 3 0 0 0 0 0
+3 3 2 2 1 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 27
+4 3 1 2 1 0 0 0 0
+3 3 2 3 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 28
+4 3 3 1 0 0 0 0 0
+3 1 2 3 2 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 29
+4 3 2 2 0 0 0 0 0
+3 1 3 3 1 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 30
+4 3 3 1 0 0 0 0 0
+3 1 3 2 2 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 31
+4 1 3 2 1 0 0 0 0
+3 3 3 2 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 32
+4 1 3 3 0 0 0 0 0
+3 3 2 2 1 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 33
+4 1 3 2 1 0 0 0 0
+3 3 2 3 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 34
+4 1 2 3 1 0 0 0 0
+3 3 3 2 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 35
+4 1 3 2 1 0 0 0 0
+3 3 3 2 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 36
+4 3 2 2 0 0 0 0 0
+3 3 1 3 1 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 37
+4 3 3 1 0 0 0 0 0
+3 3 1 2 2 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 38
+4 2 3 2 0 0 0 0 0
+3 3 1 3 1 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 39
+3 1 3 2 2 0 0 0 0
+3 4 3 1 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 40
+3 1 3 3 1 0 0 0 0
+3 4 2 2 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 41
+3 1 2 3 2 0 0 0 0
+3 4 3 1 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 42
+3 3 2 3 0 0 0 0 0
+3 4 1 2 1 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 43
+3 3 2 2 1 0 0 0 0
+3 4 1 3 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 44
+3 3 3 2 0 0 0 0 0
+3 4 1 2 1 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 45
+3 2 3 2 1 0 0 0 0
+3 4 1 3 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 46
+1 3 2 3 2 0 0 0 0
+3 4 3 1 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 47
+3 2 3 2 1 0 0 0 0
+3 4 3 1 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 48
+3 2 3 2 1 0 0 0 0
+3 4 3 1 0 0 0 0 0
+The difference between the 2 subsets is : 0
+The size of the search space before finding the first optimal solution is : 0
+
+
+
+Array number 4 :
+Solution number : 0
+2 10 3 5 7 0 0 0 0 0
+8 9 5 3 2 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 1
+2 10 3 5 5 2 0 0 0 0
+8 7 9 3 0 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 2
+2 10 3 7 5 0 0 0 0 0
+8 5 9 3 2 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 3
+2 10 3 7 3 2 0 0 0 0
+8 5 9 5 0 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 4
+2 10 3 9 3 0 0 0 0 0
+8 5 7 5 2 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 5
+2 10 8 5 2 0 0 0 0 0
+3 7 9 5 3 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 6
+2 10 8 7 0 0 0 0 0 0
+3 5 9 5 3 2 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 7
+2 10 8 5 2 0 0 0 0 0
+3 5 7 9 3 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 8
+2 10 5 7 3 0 0 0 0 0
+3 8 9 5 2 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 9
+2 10 5 5 3 2 0 0 0 0
+3 8 7 9 0 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 10
+2 10 7 5 3 0 0 0 0 0
+3 8 5 9 2 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 11
+2 3 8 5 7 2 0 0 0 0
+10 9 5 3 0 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 12
+2 3 8 5 9 0 0 0 0 0
+10 7 5 3 2 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 13
+2 3 8 7 5 2 0 0 0 0
+10 5 9 3 0 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 14
+2 3 8 9 5 0 0 0 0 0
+10 5 7 3 2 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 15
+2 3 8 9 3 2 0 0 0 0
+10 5 7 5 0 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 16
+2 3 5 7 5 3 2 0 0 0
+10 8 9 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 17
+2 3 5 9 5 3 0 0 0 0
+10 8 7 2 0 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 18
+2 8 5 7 5 0 0 0 0 0
+10 3 9 3 2 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 19
+2 8 5 7 3 2 0 0 0 0
+10 3 9 5 0 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 20
+2 8 5 9 3 0 0 0 0 0
+10 3 7 5 2 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 21
+2 8 7 5 3 2 0 0 0 0
+10 3 5 9 0 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 22
+2 8 9 5 3 0 0 0 0 0
+10 3 5 7 2 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 23
+10 3 5 7 2 0 0 0 0 0
+2 8 9 5 3 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 24
+10 3 5 9 0 0 0 0 0 0
+2 8 7 5 3 2 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 25
+10 3 7 5 2 0 0 0 0 0
+2 8 5 9 3 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 26
+10 3 9 5 0 0 0 0 0 0
+2 8 5 7 3 2 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 27
+10 3 9 3 2 0 0 0 0 0
+2 8 5 7 5 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 28
+10 8 7 2 0 0 0 0 0 0
+2 3 5 9 5 3 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 29
+10 8 9 0 0 0 0 0 0 0
+2 3 5 7 5 3 2 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 30
+10 5 7 5 0 0 0 0 0 0
+2 3 8 9 3 2 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 31
+10 5 7 3 2 0 0 0 0 0
+2 3 8 9 5 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 32
+10 5 9 3 0 0 0 0 0 0
+2 3 8 7 5 2 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 33
+10 7 5 3 2 0 0 0 0 0
+2 3 8 5 9 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 34
+10 9 5 3 0 0 0 0 0 0
+2 3 8 5 7 2 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 35
+3 8 5 9 2 0 0 0 0 0
+2 10 7 5 3 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 36
+3 8 7 9 0 0 0 0 0 0
+2 10 5 5 3 2 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 37
+3 8 9 5 2 0 0 0 0 0
+2 10 5 7 3 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 38
+3 5 7 9 3 0 0 0 0 0
+2 10 8 5 2 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 39
+3 5 9 5 3 2 0 0 0 0
+2 10 8 7 0 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 40
+3 7 9 5 3 0 0 0 0 0
+2 10 8 5 2 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 41
+8 5 7 5 2 0 0 0 0 0
+2 10 3 9 3 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 42
+8 5 9 5 0 0 0 0 0 0
+2 10 3 7 3 2 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 43
+8 5 9 3 2 0 0 0 0 0
+2 10 3 7 5 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 44
+8 7 9 3 0 0 0 0 0 0
+2 10 3 5 5 2 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 45
+8 9 5 3 2 0 0 0 0 0
+2 10 3 5 7 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 46
+8 9 5 3 2 0 0 0 0 0
+2 10 3 5 7 0 0 0 0 0
+The difference between the 2 subsets is : 0
+The size of the search space before finding the first optimal solution is : 0
+
+
+Array number 5 :
+
+484 114 205 288 506 503 201 127 410
+Solution number : 0
+484 114 205 288 201 127 0 0 0
+506 503 410 0 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 1
+506 503 410 0 0 0 0 0 0
+484 114 205 288 201 127 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 2
+506 503 410 0 0 0 0 0 0
+484 114 205 288 201 127 0 0 0
+The difference between the 2 subsets is : 0
+The size of the search space before finding the first optimal solution is : 0
+
+
+
+Array number 6 :
+
+23 31 29 44 53 38 63 85 89 82
+Solution number : 0
+23 31 29 44 53 89 0 0 0 0
+38 63 85 82 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 1
+23 31 29 38 63 85 0 0 0 0
+44 53 89 82 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 2
+23 31 44 89 82 0 0 0 0 0
+29 53 38 63 85 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 3
+23 29 44 53 38 82 0 0 0 0
+31 63 85 89 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 4
+23 44 53 63 85 0 0 0 0 0
+31 29 38 89 82 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 5
+31 29 38 89 82 0 0 0 0 0
+23 44 53 63 85 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 6
+31 63 85 89 0 0 0 0 0 0
+23 29 44 53 38 82 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 7
+29 53 38 63 85 0 0 0 0 0
+23 31 44 89 82 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 8
+44 53 89 82 0 0 0 0 0 0
+23 31 29 38 63 85 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 9
+38 63 85 82 0 0 0 0 0 0
+23 31 29 44 53 89 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 10
+38 63 85 82 0 0 0 0 0 0
+23 31 29 44 53 89 0 0 0 0
+The difference between the 2 subsets is : 1
+The size of the search space before finding the first optimal solution is : 0
+
+
+
+Array number 7 :
+
+Solution number : 0
+771 281 854 734 0 0 0 0 0 0
+121 885 486 1003 83 62 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 1
+121 885 486 1003 83 62 0 0 0 0
+771 281 854 734 0 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 2
+121 885 486 1003 83 62 0 0 0 0
+771 281 854 734 0 0 0 0 0 0
+The difference between the 2 subsets is : 0
+The size of the search space before finding the first optimal solution is : 0
+
+
+
+Array number 8 :
+
+Solution number : 0
+771 281 854 734 0 0 0 0 0 0
+121 885 486 1003 83 62 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 1
+121 885 486 1003 83 62 0 0 0 0
+771 281 854 734 0 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 2
+121 885 486 1003 83 62 0 0 0 0
+771 281 854 734 0 0 0 0 0 0
+The difference between the 2 subsets is : 0
+The size of the search space before finding the first optimal solution is : 0
+
+
+
+Array number 9 :
+
+Solution number : 0
+70 73 77 80 82 106 110 118 0 0 0 0 0 0 0
+87 90 94 98 113 115 120 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 1
+70 73 77 80 82 106 113 115 0 0 0 0 0 0 0
+87 90 94 98 110 118 120 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 2
+70 73 77 80 87 94 115 120 0 0 0 0 0 0 0
+82 90 98 106 110 113 118 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 3
+70 73 77 80 87 98 113 118 0 0 0 0 0 0 0
+82 90 94 106 110 115 120 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 4
+70 73 77 80 87 106 110 113 0 0 0 0 0 0 0
+82 90 94 98 115 118 120 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 5
+70 73 77 80 90 94 113 120 0 0 0 0 0 0 0
+82 87 98 106 110 115 118 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 6
+70 73 77 80 90 94 115 118 0 0 0 0 0 0 0
+82 87 98 106 110 113 120 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 7
+70 73 77 80 90 98 110 118 0 0 0 0 0 0 0
+82 87 94 106 113 115 120 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 8
+70 73 77 80 90 98 113 115 0 0 0 0 0 0 0
+82 87 94 106 110 118 120 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 9
+70 73 77 80 94 98 106 118 0 0 0 0 0 0 0
+82 87 90 110 113 115 120 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 10
+70 73 77 80 94 98 110 115 0 0 0 0 0 0 0
+82 87 90 106 113 118 120 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 11
+70 73 77 82 87 90 118 120 0 0 0 0 0 0 0
+80 94 98 106 110 113 115 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 12
+70 73 77 82 87 94 113 120 0 0 0 0 0 0 0
+80 90 98 106 110 115 118 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 13
+70 73 77 82 87 94 115 118 0 0 0 0 0 0 0
+80 90 98 106 110 113 120 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 14
+70 73 77 82 87 98 110 120 0 0 0 0 0 0 0
+80 90 94 106 113 115 118 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 15
+70 73 77 82 90 94 110 120 0 0 0 0 0 0 0
+80 87 98 106 113 115 118 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 16
+70 73 77 82 90 94 113 118 0 0 0 0 0 0 0
+80 87 98 106 110 115 120 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 17
+70 73 77 82 90 98 106 120 0 0 0 0 0 0 0
+80 87 94 110 113 115 118 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 18
+70 73 77 82 94 98 110 113 0 0 0 0 0 0 0
+80 87 90 106 115 118 120 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 19
+70 73 77 87 90 94 106 120 0 0 0 0 0 0 0
+80 82 98 110 113 115 118 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 20
+70 73 77 87 90 94 110 115 0 0 0 0 0 0 0
+80 82 98 106 113 118 120 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 21
+70 73 77 87 90 98 106 115 0 0 0 0 0 0 0
+80 82 94 110 113 118 120 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 22
+70 73 80 82 87 90 115 120 0 0 0 0 0 0 0
+77 94 98 106 110 113 118 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 23
+70 73 80 82 87 94 110 120 0 0 0 0 0 0 0
+77 90 98 106 113 115 118 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 24
+70 73 80 82 87 94 113 118 0 0 0 0 0 0 0
+77 90 98 106 110 115 120 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 25
+70 73 80 82 87 98 106 120 0 0 0 0 0 0 0
+77 90 94 110 113 115 118 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 26
+70 73 80 82 90 94 110 118 0 0 0 0 0 0 0
+77 87 98 106 113 115 120 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 27
+70 73 80 82 90 94 113 115 0 0 0 0 0 0 0
+77 87 98 106 110 118 120 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 28
+70 73 80 82 90 98 106 118 0 0 0 0 0 0 0
+77 87 94 110 113 115 120 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 29
+70 73 80 82 90 98 110 113 0 0 0 0 0 0 0
+77 87 94 106 115 118 120 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 30
+70 73 80 82 94 98 106 113 0 0 0 0 0 0 0
+77 87 90 110 115 118 120 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 31
+70 73 80 87 90 94 110 113 0 0 0 0 0 0 0
+77 82 98 106 115 118 120 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 32
+70 73 80 87 90 98 106 113 0 0 0 0 0 0 0
+77 82 94 110 115 118 120 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 33
+70 73 82 87 90 94 106 115 0 0 0 0 0 0 0
+77 80 98 110 113 118 120 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 34
+70 73 82 87 90 98 106 110 0 0 0 0 0 0 0
+77 80 94 113 115 118 120 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 35
+70 77 80 82 87 90 110 120 0 0 0 0 0 0 0
+73 94 98 106 113 115 118 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 36
+70 77 80 82 87 90 113 118 0 0 0 0 0 0 0
+73 94 98 106 110 115 120 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 37
+70 77 80 82 87 94 106 120 0 0 0 0 0 0 0
+73 90 98 110 113 115 118 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 38
+70 77 80 82 87 98 110 113 0 0 0 0 0 0 0
+73 90 94 106 115 118 120 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 39
+70 77 80 82 90 94 106 118 0 0 0 0 0 0 0
+73 87 98 110 113 115 120 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 40
+70 77 80 82 90 94 110 113 0 0 0 0 0 0 0
+73 87 98 106 115 118 120 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 41
+70 77 80 82 90 98 106 113 0 0 0 0 0 0 0
+73 87 94 110 115 118 120 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 42
+70 77 80 82 94 98 106 110 0 0 0 0 0 0 0
+73 87 90 113 115 118 120 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 43
+70 77 80 87 90 94 98 120 0 0 0 0 0 0 0
+73 82 106 110 113 115 118 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 44
+70 77 80 87 90 94 106 113 0 0 0 0 0 0 0
+73 82 98 110 115 118 120 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 45
+70 77 82 87 90 94 98 118 0 0 0 0 0 0 0
+73 80 106 110 113 115 120 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 46
+70 77 82 87 90 94 106 110 0 0 0 0 0 0 0
+73 80 98 113 115 118 120 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 47
+70 77 106 110 115 118 120 0 0 0 0 0 0 0 0
+73 80 82 87 90 94 98 113 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 48
+70 80 82 87 90 94 98 115 0 0 0 0 0 0 0
+73 77 106 110 113 118 120 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 49
+70 80 106 110 113 118 120 0 0 0 0 0 0 0 0
+73 77 82 87 90 94 98 115 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 50
+70 82 98 113 115 118 120 0 0 0 0 0 0 0 0
+73 77 80 87 90 94 106 110 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 51
+70 82 106 110 113 115 120 0 0 0 0 0 0 0 0
+73 77 80 87 90 94 98 118 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 52
+70 87 94 113 115 118 120 0 0 0 0 0 0 0 0
+73 77 80 82 90 98 106 110 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 53
+70 87 98 110 113 118 120 0 0 0 0 0 0 0 0
+73 77 80 82 90 94 106 115 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 54
+70 90 94 110 115 118 120 0 0 0 0 0 0 0 0
+73 77 80 82 87 98 106 113 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 55
+70 90 98 106 115 118 120 0 0 0 0 0 0 0 0
+73 77 80 82 87 94 110 113 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 56
+70 90 98 110 113 115 120 0 0 0 0 0 0 0 0
+73 77 80 82 87 94 106 118 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 57
+70 94 98 106 110 118 120 0 0 0 0 0 0 0 0
+73 77 80 82 87 90 113 115 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 58
+70 94 98 106 113 115 120 0 0 0 0 0 0 0 0
+73 77 80 82 87 90 110 118 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 59
+73 77 80 82 87 90 110 118 0 0 0 0 0 0 0
+70 94 98 106 113 115 120 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 60
+73 77 80 82 87 90 113 115 0 0 0 0 0 0 0
+70 94 98 106 110 118 120 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 61
+73 77 80 82 87 94 106 118 0 0 0 0 0 0 0
+70 90 98 110 113 115 120 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 62
+73 77 80 82 87 94 110 113 0 0 0 0 0 0 0
+70 90 98 106 115 118 120 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 63
+73 77 80 82 87 98 106 113 0 0 0 0 0 0 0
+70 90 94 110 115 118 120 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 64
+73 77 80 82 90 94 106 115 0 0 0 0 0 0 0
+70 87 98 110 113 118 120 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 65
+73 77 80 82 90 98 106 110 0 0 0 0 0 0 0
+70 87 94 113 115 118 120 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 66
+73 77 80 87 90 94 98 118 0 0 0 0 0 0 0
+70 82 106 110 113 115 120 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 67
+73 77 80 87 90 94 106 110 0 0 0 0 0 0 0
+70 82 98 113 115 118 120 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 68
+73 77 82 87 90 94 98 115 0 0 0 0 0 0 0
+70 80 106 110 113 118 120 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 69
+73 77 106 110 113 118 120 0 0 0 0 0 0 0 0
+70 80 82 87 90 94 98 115 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 70
+73 80 82 87 90 94 98 113 0 0 0 0 0 0 0
+70 77 106 110 115 118 120 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 71
+73 80 98 113 115 118 120 0 0 0 0 0 0 0 0
+70 77 82 87 90 94 106 110 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 72
+73 80 106 110 113 115 120 0 0 0 0 0 0 0 0
+70 77 82 87 90 94 98 118 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 73
+73 82 98 110 115 118 120 0 0 0 0 0 0 0 0
+70 77 80 87 90 94 106 113 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 74
+73 82 106 110 113 115 118 0 0 0 0 0 0 0 0
+70 77 80 87 90 94 98 120 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 75
+73 87 90 113 115 118 120 0 0 0 0 0 0 0 0
+70 77 80 82 94 98 106 110 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 76
+73 87 94 110 115 118 120 0 0 0 0 0 0 0 0
+70 77 80 82 90 98 106 113 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 77
+73 87 98 106 115 118 120 0 0 0 0 0 0 0 0
+70 77 80 82 90 94 110 113 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 78
+73 87 98 110 113 115 120 0 0 0 0 0 0 0 0
+70 77 80 82 90 94 106 118 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 79
+73 90 94 106 115 118 120 0 0 0 0 0 0 0 0
+70 77 80 82 87 98 110 113 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 80
+73 90 98 110 113 115 118 0 0 0 0 0 0 0 0
+70 77 80 82 87 94 106 120 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 81
+73 94 98 106 110 115 120 0 0 0 0 0 0 0 0
+70 77 80 82 87 90 113 118 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 82
+73 94 98 106 113 115 118 0 0 0 0 0 0 0 0
+70 77 80 82 87 90 110 120 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 83
+77 80 94 113 115 118 120 0 0 0 0 0 0 0 0
+70 73 82 87 90 98 106 110 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 84
+77 80 98 110 113 118 120 0 0 0 0 0 0 0 0
+70 73 82 87 90 94 106 115 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 85
+77 82 94 110 115 118 120 0 0 0 0 0 0 0 0
+70 73 80 87 90 98 106 113 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 86
+77 82 98 106 115 118 120 0 0 0 0 0 0 0 0
+70 73 80 87 90 94 110 113 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 87
+77 87 90 110 115 118 120 0 0 0 0 0 0 0 0
+70 73 80 82 94 98 106 113 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 88
+77 87 94 106 115 118 120 0 0 0 0 0 0 0 0
+70 73 80 82 90 98 110 113 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 89
+77 87 94 110 113 115 120 0 0 0 0 0 0 0 0
+70 73 80 82 90 98 106 118 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 90
+77 87 98 106 110 118 120 0 0 0 0 0 0 0 0
+70 73 80 82 90 94 113 115 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 91
+77 87 98 106 113 115 120 0 0 0 0 0 0 0 0
+70 73 80 82 90 94 110 118 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 92
+77 90 94 110 113 115 118 0 0 0 0 0 0 0 0
+70 73 80 82 87 98 106 120 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 93
+77 90 98 106 110 115 120 0 0 0 0 0 0 0 0
+70 73 80 82 87 94 113 118 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 94
+77 90 98 106 113 115 118 0 0 0 0 0 0 0 0
+70 73 80 82 87 94 110 120 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 95
+77 94 98 106 110 113 118 0 0 0 0 0 0 0 0
+70 73 80 82 87 90 115 120 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 96
+80 82 94 110 113 118 120 0 0 0 0 0 0 0 0
+70 73 77 87 90 98 106 115 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 97
+80 82 98 106 113 118 120 0 0 0 0 0 0 0 0
+70 73 77 87 90 94 110 115 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 98
+80 82 98 110 113 115 118 0 0 0 0 0 0 0 0
+70 73 77 87 90 94 106 120 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 99
+80 87 90 106 115 118 120 0 0 0 0 0 0 0 0
+70 73 77 82 94 98 110 113 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 100
+80 87 94 110 113 115 118 0 0 0 0 0 0 0 0
+70 73 77 82 90 98 106 120 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 101
+80 87 98 106 110 115 120 0 0 0 0 0 0 0 0
+70 73 77 82 90 94 113 118 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 102
+80 87 98 106 113 115 118 0 0 0 0 0 0 0 0
+70 73 77 82 90 94 110 120 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 103
+80 90 94 106 113 115 118 0 0 0 0 0 0 0 0
+70 73 77 82 87 98 110 120 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 104
+80 90 98 106 110 113 120 0 0 0 0 0 0 0 0
+70 73 77 82 87 94 115 118 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 105
+80 90 98 106 110 115 118 0 0 0 0 0 0 0 0
+70 73 77 82 87 94 113 120 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 106
+80 94 98 106 110 113 115 0 0 0 0 0 0 0 0
+70 73 77 82 87 90 118 120 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 107
+82 87 90 106 113 118 120 0 0 0 0 0 0 0 0
+70 73 77 80 94 98 110 115 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 108
+82 87 90 110 113 115 120 0 0 0 0 0 0 0 0
+70 73 77 80 94 98 106 118 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 109
+82 87 94 106 110 118 120 0 0 0 0 0 0 0 0
+70 73 77 80 90 98 113 115 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 110
+82 87 94 106 113 115 120 0 0 0 0 0 0 0 0
+70 73 77 80 90 98 110 118 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 111
+82 87 98 106 110 113 120 0 0 0 0 0 0 0 0
+70 73 77 80 90 94 115 118 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 112
+82 87 98 106 110 115 118 0 0 0 0 0 0 0 0
+70 73 77 80 90 94 113 120 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 113
+82 90 94 98 115 118 120 0 0 0 0 0 0 0 0
+70 73 77 80 87 106 110 113 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 114
+82 90 94 106 110 115 120 0 0 0 0 0 0 0 0
+70 73 77 80 87 98 113 118 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 115
+82 90 98 106 110 113 118 0 0 0 0 0 0 0 0
+70 73 77 80 87 94 115 120 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 116
+87 90 94 98 110 118 120 0 0 0 0 0 0 0 0
+70 73 77 80 82 106 113 115 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 117
+87 90 94 98 113 115 120 0 0 0 0 0 0 0 0
+70 73 77 80 82 106 110 118 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+Solution number : 118
+87 90 94 98 113 115 120 0 0 0 0 0 0 0 0
+70 73 77 80 82 106 110 118 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 1
+The size of the search space before finding the first optimal solution is : 0
+
+
+
+
+Array number 10 :
+Solution number : 0
+382745 729069 467902 34610 698150 823460 853665 488960 323046 446298 496951 264724 224916 169684 0 0 0 0 0 0 0 0 0 0
+799601 909247 44328 903959 551830 610856 670702 951111 931161 31385 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 1
+382745 729069 44328 698150 903959 853665 610856 670702 323046 31385 496951 264724 224916 169684 0 0 0 0 0 0 0 0 0 0
+799601 909247 467902 34610 823460 551830 488960 951111 446298 931161 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 2
+799601 909247 467902 34610 823460 551830 488960 951111 446298 931161 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+382745 729069 44328 698150 903959 853665 610856 670702 323046 31385 496951 264724 224916 169684 0 0 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 3
+799601 909247 44328 903959 551830 610856 670702 951111 931161 31385 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+382745 729069 467902 34610 698150 823460 853665 488960 323046 446298 496951 264724 224916 169684 0 0 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 0
+Solution number : 4
+799601 909247 44328 903959 551830 610856 670702 951111 931161 31385 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+382745 729069 467902 34610 698150 823460 853665 488960 323046 446298 496951 264724 224916 169684 0 0 0 0 0 0 0 0 0 0
+The difference between the 2 subsets is : 0
+The size of the search space before finding the first optimal solution is : 0
+
+
+
