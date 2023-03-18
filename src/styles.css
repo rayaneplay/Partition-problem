@@ -1,0 +1,96 @@
+/* Styles for the input fields */
+.text-field {
+    -fx-prompt-text-fill: gray;
+    -fx-background-color: #f2f2f2;
+    -fx-border-width: 1px;
+    -fx-border-color: #c5c5c5;
+    -fx-border-radius: 3px;
+    -fx-font-size: 14px;
+    -fx-padding: 5px;
+}
+
+/* Styles for the labels */
+.label {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #444;
+}
+
+/* Styles for the buttons */
+.button {
+    -fx-background-color: #2196f3;
+    -fx-text-fill: #fff;
+    -fx-border-width: 0;
+    -fx-border-radius: 3px;
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #0d8bf0;
+}
+/*.combo-box {*/
+/*    -fx-background-color: #2196f3;*/
+/*    -fx-text-fill: #fff;*/
+/*    -fx-border-width: 0;*/
+/*    -fx-border-radius: 3px;*/
+/*    -fx-font-size: 14px;*/
+/*    -fx-padding: 8px 16px;*/
+/*    -fx-cursor: hand;*/
+/*    -fx-min-width: 100px; !* add this line to adjust the width *!*/
+/*}*/
+
+/*.combo-box .list-cell {*/
+/*    -fx-text-fill: #000; !* add this line to change the text color *!*/
+/*    -fx-background-color: #2196f3 ;*/
+/*}*/
+
+/* Styles for the list view */
+.list-view {
+    -fx-background-color: #fff;
+    -fx-border-width: 1px;
+    -fx-border-color: #c5c5c5;
+    -fx-border-radius: 3px;
+    -fx-font-size: 14px;
+    -fx-padding: 5px;
+}
+
+/* Styles for the search button */
+#searchButton {
+    -fx-background-color: #4caf50;
+}
+
+#searchButton:hover {
+    -fx-background-color: #3d8b40;
+}
+
+/* Styles for the generate button */
+#generateButton {
+    -fx-background-color: #ffc107;
+
+}
+#generateButton:hover {
+    -fx-background-color: #d8a407;
+
+}
+
+/* Styles for the input controls VBox */
+#inputControls {
+    -fx-background-color: #f2f2f2;
+    -fx-padding: 10px;
+    -fx-spacing: 10px;
+}
+
+/* Styles for the bottom button box */
+#buttonBox {
+    -fx-background-color: #fff;
+    -fx-padding: 10px;
+    -fx-spacing: 10px;
+    -fx-alignment: center-right;
+}
+
+/* Styles for the border pane */
+#layout {
+    -fx-background-color: #fff;
+}

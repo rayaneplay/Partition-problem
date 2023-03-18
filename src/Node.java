@@ -7,7 +7,17 @@ public class Node {
     Node parent;
     static int  id = 0;
     int diff;
+
+    int cost;
     int level;
+
+    public int getCost() {
+        return cost;
+    }
+
+    public void setCost(int cost) {
+        this.cost = cost;
+    }
 
     public void setDiff(int diff) {
         this.diff = diff;
@@ -89,24 +99,8 @@ public int getNodeId(){
 
     }
 
-    //This methode takes a binary state calls translate then evaluates the diffrence between the 2 subsets
-//public int evaluate(int [] solutions){
-//
-//        for(int i=0;i<solutions.length;i++){
-//            if(solutions[i]==0){
-//                sum0=sum0+Main.T[i];
-//            }else{
-//                sum1 = sum1 + Main.T[i];
-//            }
-//        }
-//
-//
-//    return Math.abs(sum0-sum1);
-//
-//}
-
 //This methode takes a binary state and translates it into integer values
-    public ArrayList<int[]> translate(int[] state) {
+    public static ArrayList<int[]> translate(int[] state) {
         int[] setA = new int[Main.T.length];
         int[] setB = new int[Main.T.length];
         ArrayList<int[]> temp = new ArrayList<>();

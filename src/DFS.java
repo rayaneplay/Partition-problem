@@ -32,6 +32,11 @@ public class DFS {
             if (node.getLevel()  == T.length) {
                 tempDiff = evaluate(node.getState());
 
+                if(evaluate(node.getState()) == 0){
+                    arraySolutions.add(node.getState());
+                    break;
+
+                }
 
                 //Just for testing purposes
                 if(tempDiff < bestMin){
