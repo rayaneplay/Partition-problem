@@ -11,7 +11,6 @@ public class Astar {
         PriorityQueue<Node> queue = new PriorityQueue<>(Comparator.comparingInt(n -> n.getCost() + heuristic.calculate(n)));
         ArrayList<int[]> arraySolutions = new ArrayList<>();
         int bestMin = Integer.MAX_VALUE;
-
         Node root = new Node(subset, null, 0);
         root.setCost(0);
         queue.add(root);

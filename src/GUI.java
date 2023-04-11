@@ -9,10 +9,7 @@ import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Objects;
-import java.util.Random;
+import java.util.*;
 
 public class GUI extends Application {
 
@@ -26,6 +23,8 @@ public class GUI extends Application {
 
     @Override
     public void start(Stage primaryStage) {
+
+
         // Create the input controls
         searchAlgorithmComboBox.setPromptText("Select search algorithm");
 

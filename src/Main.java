@@ -1,7 +1,7 @@
+import javafx.util.Pair;
+
 import java.io.*;
-import java.util.ArrayList;
-import java.util.Random;
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
 
@@ -16,7 +16,7 @@ public class Main {
         int [] T = new int[size_t] ;
         for(int i=0;i<size_t;i++){
             Random random = new Random();
-            T[i] = random.nextInt(101);
+            T[i] = random.nextInt(200);
 
         }
         return T;
@@ -38,61 +38,156 @@ public class Main {
     }
 
 
+    public static ArrayList<int[]> translate(int[] state) {
+        int[] setA = new int[Main.T.length];
+        int[] setB = new int[Main.T.length];
+        ArrayList<int[]> temp = new ArrayList<>();
+        int k = 0, j = 0;
+
+        for (int i=0;i<state.length;i++) {
+            if (state[i] == 1) {
+                setA[k] = Main.T[i];
+                k++;
+            } else {
+                setB[j] = Main.T[i];
+                j++;
+            }
+        }
+        temp.add(setA);
+        temp.add(setB);
+
+        return temp;
+
+    }
+
     public static void main(String[] args) throws IOException {
 
-        ArrayList<int[]> result1 = new ArrayList<>();
-        ArrayList<int[]> result = new ArrayList<>();
-
-        ArrayList<int[]> translatedResult = new ArrayList<>();
-        Node node = new Node();
-       // printArray(T);
-//        int counter =0;
-//        long startTime,endTime;
-//        double executionTime;
-
-        // MedianElementHeuristic h1 = new MedianElementHeuristic();
-        MaximumElementHeuristic h2 = new MaximumElementHeuristic();
-        SumOfRemainingElementsHeuristic h3 = new SumOfRemainingElementsHeuristic();
-
-
+        T = genInstance(1000);
 
         // Create the CSV file
-        FileWriter fw = new FileWriter("results2.csv");
+        FileWriter fw = new FileWriter("resultsGA.csv");
         BufferedWriter bw = new BufferedWriter(fw);
+        bw.write("alpha,gens\n");
 
-        // Write the header row
-        bw.write("Size,DFS,Astar (h2),Astar (h3)\n");
 
-        // Loop over different sizes
-        for(int i = 3; i < 25; i++){
-            T = genInstance(i);
+        for(double i=0; i<=1;i=i+0.1){
+            int result = 0;
+            int k = 1;
+            bw.write("\n");
+            System.out.println("Alpha : " + i);
+            for(int j=0;j<50;j++){
 
-            // Measure execution time for DFS
-            long startTime = System.currentTimeMillis();
-            DFS.search();
-            long endTime = System.currentTimeMillis();
-            double dfsTime = (endTime - startTime) / 1000.0;
+                Pair<Individual,Integer> tmp ;
+                tmp =  GeneticAlgo.search(i,10,1000);
+               if(tmp.getValue()<=1000) {
+                   result = result + tmp.getValue();
+                   k++;
+               }
 
-            // Measure execution time for Astar (h2)
-            startTime = System.currentTimeMillis();
-            Astar.search(h2);
-            endTime = System.currentTimeMillis();
-            double h2Time = (endTime - startTime) / 1000.0;
-
-            // Measure execution time for Astar (h3)
-            startTime = System.currentTimeMillis();
-            Astar.search(h3);
-            endTime = System.currentTimeMillis();
-            double h3Time = (endTime - startTime) / 1000.0;
-
-            // Write the results to the CSV file
-            bw.write(i + "," + dfsTime + "," + h2Time + "," + h3Time + "\n");
+            }
+            bw.write(i + "," + result/k);
         }
-
         // Close the file
         bw.close();
         fw.close();
-    }
+
+
+
+//        pop = GeneticAlgo.genPopulation(10);
+//
+//        for(Individual i : pop){
+//            i.calculateFitnessScore();
+//           System.out.println(Arrays.toString(i.getChromosome()) + " Score : " + i.getFitnessScore());
+////            System.out.println(Arrays.toString(i.translate(i.getChromosome()).get(0)));
+////            System.out.println(Arrays.toString(i.translate(i.getChromosome()).get(1)));
+//
+//
+//        }
+//
+//        elite = GeneticAlgo.selectElite(pop,2);
+//        System.out.println("The Elite is : ");
+//        for(Individual i : elite){
+//            i.calculateFitnessScore();
+//            System.out.println(Arrays.toString(i.getChromosome()) + " Score : " + i.getFitnessScore());
+//        }
+//        PriorityQueue<Individual> crossedPop;
+//        crossedPop = GeneticAlgo.monoPointCrossover(elite);
+//        System.out.println("The new generation after crossover is : ");
+//        for(Individual i : crossedPop){
+//            i.calculateFitnessScore();
+//            System.out.println(Arrays.toString(i.getChromosome()) + " Score : " + i.getFitnessScore());
+//        }
+//
+//        mutated = GeneticAlgo.mutation(crossedPop,20);
+//        System.out.println("The new generation after mutation is : ");
+//        for(Individual i : crossedPop){
+//
+////            System.out.println("calcul " +calcul(i.getChromosome()) );
+////
+//           System.out.println(Arrays.toString(i.getChromosome()) + " Score : " + i.calculateFitnessScore());
+//
+//        }
+
+
+
+
+
+
+
+
+//        ArrayList<int[]> result1 = new ArrayList<>();
+//        ArrayList<int[]> result = new ArrayList<>();
+//
+//        ArrayList<int[]> translatedResult = new ArrayList<>();
+//        Node node = new Node();
+//       // printArray(T);
+////        int counter =0;
+////        long startTime,endTime;
+////        double executionTime;
+//
+//        // MedianElementHeuristic h1 = new MedianElementHeuristic();
+//        MaximumElementHeuristic h2 = new MaximumElementHeuristic();
+//        SumOfRemainingElementsHeuristic h3 = new SumOfRemainingElementsHeuristic();
+//
+//
+//
+//        // Create the CSV file
+//        FileWriter fw = new FileWriter("results2.csv");
+//        BufferedWriter bw = new BufferedWriter(fw);
+//
+//        // Write the header row
+//        bw.write("Size,DFS,Astar (h2),Astar (h3)\n");
+//
+//        // Loop over different sizes
+//        for(int i = 3; i < 25; i++){
+//            T = genInstance(i);
+//
+//            // Measure execution time for DFS
+//            long startTime = System.currentTimeMillis();
+//            DFS.search();
+//            long endTime = System.currentTimeMillis();
+//            double dfsTime = (endTime - startTime) / 1000.0;
+//
+//            // Measure execution time for Astar (h2)
+//            startTime = System.currentTimeMillis();
+//            Astar.search(h2);
+//            endTime = System.currentTimeMillis();
+//            double h2Time = (endTime - startTime) / 1000.0;
+//
+//            // Measure execution time for Astar (h3)
+//            startTime = System.currentTimeMillis();
+//            Astar.search(h3);
+//            endTime = System.currentTimeMillis();
+//            double h3Time = (endTime - startTime) / 1000.0;
+//
+//            // Write the results to the CSV file
+//            bw.write(i + "," + dfsTime + "," + h2Time + "," + h3Time + "\n");
+//        }
+//
+//        // Close the file
+//        bw.close();
+//        fw.close();
+//    }
 
 
 
@@ -153,4 +248,4 @@ public class Main {
 //        }
 
 
-    }
+    }}
